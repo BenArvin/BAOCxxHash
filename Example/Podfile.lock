@@ -1,0 +1,16 @@
+PODS:
+  - BAOCxxHash (0.1.0)
+
+DEPENDENCIES:
+  - BAOCxxHash (from `../`)
+
+EXTERNAL SOURCES:
+  BAOCxxHash:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BAOCxxHash: fa3ab9dc1a4021e0a27ad6c71e4d5a945b4647ef
+
+PODFILE CHECKSUM: 4a3d43fc2cb101d22af4fd55d964933d380fde89
+
+COCOAPODS: 1.9.1

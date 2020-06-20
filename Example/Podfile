@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'BAOCxxHash_Example' do
+  pod 'BAOCxxHash', :path => '../'
+
+  target 'BAOCxxHash_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
