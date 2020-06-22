@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "BAOCxxHash.h"
+#import "NSData+BAOCxxHash.h"
+#import "NSString+BAOCxxHash.h"
+#import "xxh3.h"
+#import "xxhash.h"
 
 FOUNDATION_EXPORT double BAOCxxHashVersionNumber;
 FOUNDATION_EXPORT const unsigned char BAOCxxHashVersionString[];

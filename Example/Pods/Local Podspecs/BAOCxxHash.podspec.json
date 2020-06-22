@@ -1,15 +1,15 @@
 {
   "name": "BAOCxxHash",
   "version": "0.1.0",
-  "summary": "A short description of BAOCxxHash.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Objective-C encapsulation of xxHash.",
+  "description": "Objective-C encapsulation of xxHash.",
   "homepage": "https://github.com/benarvin/BAOCxxHash",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "benarvin": "arvinnie@tencent.com"
+    "benarvin": "benarvin@outlook.com"
   },
   "source": {
     "git": "https://github.com/benarvin/BAOCxxHash.git",
