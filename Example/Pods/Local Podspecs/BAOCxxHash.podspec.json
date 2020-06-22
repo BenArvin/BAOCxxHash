@@ -2,7 +2,7 @@
   "name": "BAOCxxHash",
   "version": "0.1.0",
   "summary": "Objective-C encapsulation of xxHash.",
-  "description": "Objective-C encapsulation of xxHash.",
+  "description": "Objective-C encapsulation of xxHash. You can hash NSString, NSData and files...",
   "homepage": "https://github.com/benarvin/BAOCxxHash",
   "license": {
     "type": "MIT",
