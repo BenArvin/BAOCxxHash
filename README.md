@@ -5,11 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/BAOCxxHash.svg?style=flat)](https://cocoapods.org/pods/BAOCxxHash)
 [![Platform](https://img.shields.io/cocoapods/p/BAOCxxHash.svg?style=flat)](https://cocoapods.org/pods/BAOCxxHash)
 
-## Example
+## Introduction
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+Objective-C encapsulation of [xxHash](https://github.com/Cyan4973/xxHash). You can hash NSString, NSData and files...
 
 ## Installation
 
@@ -19,6 +17,8 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'BAOCxxHash'
 ```
+
+Or, you can use it directly by import code files under ```/BAOCxxHash/Classes/```
 
 ## Author
 

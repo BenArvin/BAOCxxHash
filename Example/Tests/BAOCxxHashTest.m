@@ -32,8 +32,8 @@
     NSString *testStr = @"abssdfiiughyADFHUIDFHUIF ！@#¥%……&*（）「」：“》？锟斤拷烫烫烫屯屯屯锘锘锘";
     uint32_t hash32 = [testStr BAXH_hash32];
     uint64_t hash64 = [testStr BAXH_hash64];
-    XCTAssert(hash32 == 0x56725b2a);
-    XCTAssert(hash64 == 0x888cc4972a657d8a);
+    XCTAssert(hash32 == 0x64aa7fdf);
+    XCTAssert(hash64 == 0xc754a7cb3c5b4ed8);
 }
 
 - (void)testFileHash {
