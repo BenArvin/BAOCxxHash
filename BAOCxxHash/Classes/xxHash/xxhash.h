@@ -530,24 +530,26 @@ XXH_PUBLIC_API XXH64_hash_t XXH3_64bits_withSeed(const void* data, size_t len, X
 
 /* streaming 64-bit */
 
-#if defined (__STDC_VERSION__) && (__STDC_VERSION__ >= 201112L)   /* C11+ */
-#  include <stdalign.h>
-#  define XXH_ALIGN(n)      alignas(n)
-#elif defined(__GNUC__)
-#  define XXH_ALIGN(n)      __attribute__ ((aligned(n)))
-#elif defined(_MSC_VER)
-#  define XXH_ALIGN(n)      __declspec(align(n))
-#else
-#  define XXH_ALIGN(n)   /* disabled */
-#endif
+//#if defined (__STDC_VERSION__) && (__STDC_VERSION__ >= 201112L)   /* C11+ */
+//#  include <stdalign.h>
+//#  define XXH_ALIGN(n)      alignas(n)
+//#elif defined(__GNUC__)
+//#  define XXH_ALIGN(n)      __attribute__ ((aligned(n)))
+//#elif defined(_MSC_VER)
+//#  define XXH_ALIGN(n)      __declspec(align(n))
+//#else
+//#  define XXH_ALIGN(n)   /* disabled */
+//#endif
+#define XXH_ALIGN(n)      __attribute__ ((aligned(n)))
 
-/* Old GCC versions only accept the attribute after the type in structures. */
-#if !(defined(__STDC_VERSION__) && (__STDC_VERSION__ >= 201112L))   /* C11+ */ \
-    && defined(__GNUC__)
-#   define XXH_ALIGN_MEMBER(align, type) type XXH_ALIGN(align)
-#else
-#   define XXH_ALIGN_MEMBER(align, type) XXH_ALIGN(align) type
-#endif
+///* Old GCC versions only accept the attribute after the type in structures. */
+//#if !(defined(__STDC_VERSION__) && (__STDC_VERSION__ >= 201112L))   /* C11+ */ \
+//    && defined(__GNUC__)
+//#   define XXH_ALIGN_MEMBER(align, type) type XXH_ALIGN(align)
+//#else
+//#   define XXH_ALIGN_MEMBER(align, type) XXH_ALIGN(align) type
+//#endif
+#define XXH_ALIGN_MEMBER(align, type) XXH_ALIGN(align) type
 
 typedef struct XXH3_state_s XXH3_state_t;
 

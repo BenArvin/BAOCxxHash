@@ -15,4 +15,4 @@ if: tag IS present
 
 script:
 - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/BAOCxxHash.xcworkspace -scheme BAOCxxHash-Example -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=latest,name=iPhone 8' ONLY_ACTIVE_ARCH=NO | xcpretty
-- pod lib lint --allow-warnings --use-libraries
+- pod lib lint --allow-warnings
