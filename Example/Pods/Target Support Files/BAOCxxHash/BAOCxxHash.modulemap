@@ -1,6 +1,0 @@
-framework module BAOCxxHash {
-  umbrella header "BAOCxxHash-umbrella.h"
-
-  export *
-  module * { export * }
-}
