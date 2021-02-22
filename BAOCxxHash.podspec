@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BAOCxxHash'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Objective-C encapsulation of xxHash.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Objective-C encapsulation of xxHash. You can hash NSString, NSData and files...
   s.homepage         = 'https://github.com/benarvin/BAOCxxHash'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'benarvin' => 'benarvin@outlook.com' }
+  s.author           = { 'benarvin' => 'benarvin93@outlook.com' }
   s.source           = { :git => 'https://github.com/benarvin/BAOCxxHash.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

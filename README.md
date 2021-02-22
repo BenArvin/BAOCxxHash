@@ -22,7 +22,7 @@ Or, you can use it directly by import code files under ```/BAOCxxHash/Classes/``
 
 ## Author
 
-benarvin, benarvin@outlook.com
+benarvin, benarvin93@outlook.com
 
 ## License
 
